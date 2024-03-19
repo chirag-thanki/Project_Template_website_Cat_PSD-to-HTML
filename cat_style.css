@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #daac00;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
