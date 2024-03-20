@@ -1,14 +1,107 @@
-.navbar {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.navbar,
+.links {
     background-color: #daac00;
     display: flex;
     justify-content: space-around;
-}
-
-.links {
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 
 a {
     text-decoration: none;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.searchbar {
+    /* width: 274px; */
+    /* height: 51px; */
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+    background-color: #fcc302;
+    /* position: relative; */
+    display: flex;
+    /* border: 2px dotted red; */
+
+}
+
+#search {
+    background-image: url(./Assets/Shape\ \(1\).svg);
+    /* position: absolute; */
+    display: flex;
+    /* right: 0; */
+    padding: 14px 20px;
+}
+
+input[type="search"] {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    /* text-align: center; */
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.sdiv_one {
+    padding: 80px;
+    background-color: #fcc302;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstbigtext {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.secondtext {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+button {
+    background-color: transparent;
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #daac00;
+    border: 3px solid #ffffff;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+button[name="Our Service"] {
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #00bec9;
+}
+
+.sdiv_one_text div {
+    padding: 20px;
+    margin: 20px;
 }

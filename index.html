@@ -6,20 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Template Website</title>
     <link rel="stylesheet" href="cat_style.css">
+
+    <!-- Linking Font from Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <div class="navbar">
-            <div class="logo"><img src="./Assets/Vector Smart Object (Double Click to Edit) .svg" alt=""></div>
-            <div class="links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Service</a>
-                <a href="#">Contact</a>
-            </div>
 
-        </div>
+        <header>
+            <div class="navbar">
+                <div class="logo"><img src="./Assets/Vector Smart Object (Double Click to Edit) .svg" alt=""></div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="searchbar">
+                    <input type="search" value="Search..." style="border: none;">
+                    <div id="search">
+                        <img src="./Assets/Search Button.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="sdiv_one">
+                <div class="sdiv_one_text">
+                    <div class="firstbigtext">
+                        <p>First I wanted to be a veterinarian</p>
+                    </div>
+                    <div class="secondtext">
+                        <p>Lorem Ipsum available but the majority have suffered alteration in some form by injected
+                            humour randomised words.</p>
+                    </div>
+                    <div class="buttons">
+                        <button name="Contact Us">Contact Us</button>
+                        <button name="Our Service">Our Service</button>
+                    </div>
+
+                </div>
+                <div class="cat-image"><img src="./Assets/Place Your Image Here (Double Click to Edit).svg"
+                        alt="cat-image">
+                </div>
+            </div>
+        </section>
+
     </div>
 </body>
 
