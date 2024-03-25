@@ -53,12 +53,11 @@ input[type="search"] {
     letter-spacing: 0px;
     color: #ffffff;
     font-weight: 400;
-    /* text-align: center; */
     padding-left: 20px;
     background-color: transparent;
 }
 
-.sdiv_one {
+.s1d1 {
     padding: 80px;
     background-color: #fcc302;
     display: flex;
@@ -66,14 +65,15 @@ input[type="search"] {
     align-items: center;
 }
 
-.firstbigtext {
+
+.s1d3_firstbigtext {
     font-size: 67px;
     letter-spacing: 1px;
     color: #ffffff;
     font-weight: 600;
 }
 
-.secondtext {
+.s1d4_secondtext {
     font-size: 29px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -81,11 +81,10 @@ input[type="search"] {
 }
 
 button {
-    background-color: transparent;
     width: 182px;
     height: 69px;
     border-radius: 7px;
-    background-color: #daac00;
+    background-color: transparent;
     border: 3px solid #ffffff;
     font-size: 21px;
     letter-spacing: 0px;
@@ -101,7 +100,176 @@ button:hover {
     background-color: #00bec9;
 }
 
-.sdiv_one_text div {
-    padding: 20px;
-    margin: 20px;
+.s1d2_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.s2d1 {
+    background-color: #ffffff;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.s2d3_firsttext {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.s2d4_secondtext {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+}
+
+button[name="s2b1_ourservice"] {
+    background-color: #fcc302;
+}
+
+.s2d2_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.S2dog-image {
+    border: 2px solid red;
+    background-image: url(./Assets/Dog_play.png);
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.S2extra-box {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    z-index: 0;
+}
+
+.S2PlayButton {
+    border: 2px solid black;
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    background-color: #ffff;
+}
+
+.s3d1 {
+    background-color: #fcc302;
+}
+
+.s3d3_firsttext {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.s3d4_secondtext {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.sdiv_three {
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.s3d5_image {
+    display: flex;
+}
+
+.dog_nurse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dog_nurse>h2 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dog_nurse>p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.s4d1 {
+    background-color: #ffffff;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    border: 2px solid;
+}
+
+.s4d2_text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: end;
+    gap: 30px;
+}
+
+button[name="s4b1_Our-Service"] {
+    background-color: #fcc302;
+}
+
+
+.s4d3_firsttext {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.s4d4_secondtext {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+}
+
+.s4dog-image {
+    border: 2px solid red;
+    /* background-image: url(./Assets/Dog_Inspecting_Ear.svg); */
+    background: linear-gradient();
+    /* opacity: 0.569; */
+    width: 506px;
+    height: 480px;
+    background-color: rgba(218, 172, 0, 0.5686274509803921);
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
